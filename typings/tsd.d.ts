@@ -116,3 +116,5 @@ declare module 'jsep' {
 
 	export = jsep
 }
+
+declare module 'jsep/ternary' {}

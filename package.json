@@ -29,6 +29,7 @@
 		"docco": "^0.7.0",
 		"eslint": "^7.23.0",
 		"http-server": "^0.12.3",
+		"jsep": "link:.",
 		"rollup": "^2.44.0",
 		"rollup-plugin-terser": "^7.0.2"
 	},
