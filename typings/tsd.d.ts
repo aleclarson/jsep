@@ -12,6 +12,7 @@ declare module 'jsep' {
 			| MemberExpression
 			| ThisExpression
 			| UnaryExpression
+			| SequenceExpression
 
 		export interface ArrayExpression {
 			type: 'ArrayExpression'
@@ -77,6 +78,11 @@ declare module 'jsep' {
 			operator: string
 			argument: Expression
 			prefix: boolean
+		}
+
+		export interface SequenceExpression {
+			type: 'SequenceExpression'
+			expressions: Expression[]
 		}
 
 		type ExpressionType = Expression['type']
