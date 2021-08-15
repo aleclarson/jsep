@@ -16,12 +16,6 @@
 	"type": "module",
 	"main": "./dist/cjs/jsep.cjs.js",
 	"module": "./dist/jsep.js",
-	"exports": {
-		".": {
-			"require": "./dist/cjs/jsep.cjs.js",
-			"default": "./dist/jsep.js"
-		}
-	},
 	"typings": "typings/tsd.d.ts",
 	"private": false,
 	"devDependencies": {
